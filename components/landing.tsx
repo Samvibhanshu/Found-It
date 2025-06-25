@@ -56,7 +56,7 @@ const LandingPage: React.FC = () => {
         <p className="text-lg mb-8 max-w-lg animate-fadeIn">
           Your one-stop solution for managing lost and found items. Find your belongings or help others recover theirs!
         </p>
-        <div className="flex gap-10">
+        <div className="flex gap-10 mb-[20px]">
           <button 
             onClick={handleLoginClick}
             className="px-8 py-3 bg-white text-[#19647E] rounded-md font-semibold shadow-lg hover:bg-gray-200 transition duration-300"
@@ -70,11 +70,14 @@ const LandingPage: React.FC = () => {
             Sign Up
           </button>
         </div>
-        <img 
+        <div> 
+          <img 
           src="/assets/paperplanewhite.png"
           alt="Plane Image"
-          className="w-[800px] h-[800px] object-contain"
+          className="object-contain"
         />
+        </div>
+        
       </div>
 
       <footer className="mt-auto p-4 w-full text-center text-sm text-gray-300">

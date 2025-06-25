@@ -26,7 +26,7 @@ const Found: React.FC = () => {
 
       <div className="flex-grow p-6 overflow-y-auto" onWheel={handleScroll}>
         <header className="flex justify-between items-end mb-6 mt-10">
-          <h1 className="text-6xl p-8 font-bold text-cyan-900">
+          <h1 className="text-5xl p-8 font-bold text-cyan-900">
             <span className="text-[#19647E]">Found it!</span>
           </h1>
 
@@ -46,7 +46,7 @@ const Found: React.FC = () => {
 
         <section className="mb-10">
           <h2 className="text-3xl text-cyan-900 font-bold mb-4">Items</h2>
-          <div className="grid grid-cols-4 gap-6">
+          <div className="flex flex-row flex-wrap gap-6">
             <Card
               image = "/assets/wallet.jpg"
               title="Lost Wallet"

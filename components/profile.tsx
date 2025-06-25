@@ -28,9 +28,9 @@ const Profile: React.FC = () => {
   alt="Decorative Plane"
 />
       
-      <div className="flex-grow p-8 overflow-x-hidden">
+      <div className=" p-7 overflow-x-hidden">
         {/* User Information Section */}
-        <div className="bg-[#19647E] p-4 mb-6 rounded-lg shadow-md flex items-center" style={{ height: '300px' }}>
+        <div className="bg-[#19647E] p-4 mb-6 rounded-lg shadow-md flex items-center" style={{ height: '270px', width:'95vw' }}>
           {/* Profile Image */}
           <div className="h-4/5 aspect-square">
             <img 
@@ -42,12 +42,12 @@ const Profile: React.FC = () => {
           
           {/* User Info */}
           <div className="flex-grow text-white pl-8">
-            <h2 className="text-4xl font-bold mb-6">User Information</h2>
+            <h2 className="text-3xl font-bold mb-6">User Information</h2>
             <div className="space-y-3">
-              <p className="text-lg">Name: aasasingh2005 </p>
-              <p className="text-lg">Email ID: aasasingh2005@gmail.com </p>
-              <p className="text-lg">Address: 1234 Elm St, Springfield</p>
-              <p className="text-lg">Contact No: +1234567890</p>
+              <p className="text-md">Name: aasasingh2005 </p>
+              <p className="text-md">Email ID: aasasingh2005@gmail.com </p>
+              <p className="text-md">Address: 1234 Elm St, Springfield</p>
+              <p className="text-md">Contact No: +1234567890</p>
             </div>
           </div>
         </div>
