@@ -23,10 +23,10 @@ const Profile: React.FC = () => {
       <Sidebar />
       
       <img
-        src="/assets/paperplane.png"
-        className="absolute top-[70px] right-[50px] w-150 h-40" // Positioning at the top-right corner
-        alt="Decorative Plane"
-      />
+  src="/assets/paperplane.png"
+  className="hidden md:block absolute top-[70px] right-[50px] w-150 h-40"
+  alt="Decorative Plane"
+/>
       
       <div className="flex-grow p-8 overflow-x-hidden">
         {/* User Information Section */}
